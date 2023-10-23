@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(45deg, #c85a88, #8373c7, #c85a88, #8373c7);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes gradientAnimation  {
+    0% {
+        background-position: 0% 50% ;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 600%;
+    padding: 15px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-list {
+    background-color: #fffb94;
+    border: 1px solid #ffdf31;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+    flex: 1;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-label.checked {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.remove-button {
+    margin-left: 10px;
+}
+
+.list-group-item span {
+    font-weight: bolder;
+}
+
+.input-group {
+    margin-top: 15px;
+}
+
+form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+
+.clear-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
