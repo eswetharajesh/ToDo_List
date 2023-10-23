@@ -47,7 +47,7 @@ body {
 
 .list-group-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/*Add spaces between items*/
     align-items: center;
     padding: 10px 0;
     border: none;
