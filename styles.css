@@ -107,6 +107,14 @@ form-control {
     margin-top: 20px;
 }
 
+.datetime {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
 footer { /*Adds footer style*/
     background-color: #333;
     color: #fff;
